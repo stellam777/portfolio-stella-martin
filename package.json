@@ -1,7 +1,7 @@
 {
-  "name": "Stella Martin",
+  "name": "gatsby-starter-spectral",
   "version": "0.0.1",
-  "description": "Portfolio",
+  "description": "Gatsby.js V2 starter template based on Spectral by HTML5 UP",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
