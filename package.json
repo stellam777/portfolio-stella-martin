@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-spectral",
+  "name": "Stella Martin",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Spectral by HTML5 UP",
+  "description": "Portfolio",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
@@ -11,6 +11,7 @@
     "email": "anubhav.srivastava00@gmail.com"
   },
   "dependencies": {
+    "@fontsource/oswald": "^4.2.2",
     "gatsby": "^2.20.2",
     "gatsby-plugin-manifest": "^2.3.1",
     "gatsby-plugin-offline": "^3.1.0",
@@ -21,8 +22,11 @@
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
     "react-images": "^1.1.0",
+    "react-ionicons": "^4.2.0",
+    "react-particles-js": "^3.4.1",
     "react-scrollspy": "^3.4.2",
-    "smoothscroll-polyfill": "^0.4.4"
+    "smoothscroll-polyfill": "^0.4.4",
+    "styled-components": "^5.2.3"
   },
   "scripts": {
     "develop": "gatsby develop",
