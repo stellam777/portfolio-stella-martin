@@ -705,17 +705,14 @@
 ul.bring-front {
 	position: absolute;
 	@include vendor('justify-content', 'center');
+}
 
+li.hover-outline {
 	@include breakpoint('<=small') {
-		right: 2px;
-	}
-
-	@include breakpoint('<=xsmall') {
-		position: absolute;
-		@include vendor('justify-content', 'center');
-		left: 40px;
+		display: none;
 	}
 }
+
 
 
 
@@ -1002,15 +999,15 @@ ul.bring-front {
 		}
 
 		&.resume {
-			background-color: transparent;
+			background-color: black;
 			box-shadow: none !important;
-			color: #504f54;
-			border: solid 1px black;
+			color: white !important;
 
 			&:hover {
-				background-color: black;
+				background-color: transparent;
 				box-shadow: none !important;
-				color: white !important;
+				color: #504f54 !important;
+				border: solid 1px black;
 			}
 		}
 
