@@ -22,19 +22,25 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to='/#one'>About Me</Link>
+                <Link to="/#one">About Me</Link>
               </li>
               <li>
-                <Link to='/#two'>Work</Link>
+                <Link to="/#two">Projects</Link>
               </li>
               <li>
-                <Link to='/#three'>Skills</Link>
+                <Link to="/#three">Skills</Link>
               </li>
               <li>
-                <Link to='/#footer'>Contact</Link>
+                <Link to="/#footer">Contact</Link>
               </li>
               <li>
-                <a href='https://drive.google.com/file/d/13FHQd95FiKBts_CNa-goJFDa7I4dkVIn/view?usp=sharing' target='_blank' rel="noreferrer">Resume</a>
+                <a
+                  href="https://drive.google.com/file/d/1qLOoPShsYwYVYvPLl5Ae63ZShsaVc7qz/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Resume
+                </a>
               </li>
             </ul>
             <a

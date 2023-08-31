@@ -5,8 +5,8 @@ module.exports = {
   manifestStartUrl: '/',
   // manifestBackgroundColor: '#663399',
   // manifestThemeColor: '#663399',
-  manifestBackgroundColor: "#000000",
-  manifestThemeColor: "#000000",
+  manifestBackgroundColor: '#000000',
+  manifestThemeColor: '#000000',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/sm.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
@@ -25,12 +25,6 @@ module.exports = {
       icon: 'fa-linkedin',
       name: 'LinkedIn',
       url: 'https://www.linkedin.com/in/stellashaymartin/',
-    },
-    {
-      style: 'brands',
-      icon: 'fa-instagram',
-      name: 'Instagram',
-      url: 'https://www.instagram.com/estellashay/',
     },
     {
       style: 'solid',
