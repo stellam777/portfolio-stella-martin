@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Nav from './Nav';
-import { Link } from 'gatsby';
-//import logo from '../assets/images/smlogo-white.png';
 
 export default function SideBar({ fullMenu }) {
   const [headerOpen, toggleHeader] = useState(false);
@@ -9,19 +7,19 @@ export default function SideBar({ fullMenu }) {
 
   useEffect(() => {
     window.addEventListener('scroll', changeHeaderColor);
-  },[]);
+  }, []);
 
   const changeHeaderColor = () => {
-    if(window.scrollY >= 100) {
+    if (window.scrollY >= 100) {
       setNavbar(true);
     } else {
       setNavbar(false);
     }
-  }
+  };
 
   return (
     // <header id="header" className={`${fullMenu ? '' : 'alt active'}`}>
-     <header id="header" className={navbar ? 'active' : 'alt'}>
+    <header id="header" className={navbar ? 'active' : 'alt'}>
       {/* <h1>
         <Link to="/">Spectral</Link>
       </h1> */}

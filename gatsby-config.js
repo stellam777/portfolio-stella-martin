@@ -6,7 +6,10 @@ module.exports = {
     title: config.siteTitle,
   },
   plugins: [
+    `gatsby-optional-chaining`,
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-nullish-coalescing-operator',
+    'gatsby-plugin-babel-optional-chaining',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
