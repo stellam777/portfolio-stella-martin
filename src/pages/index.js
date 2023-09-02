@@ -91,7 +91,7 @@ const IndexPage = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://drive.google.com/file/d/1qLOoPShsYwYVYvPLl5Ae63ZShsaVc7qz/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1MFZst1o0t_Wm-2Zo08WgOLqzc8wNJXsP/view?usp=sharing"
                     className="button resume"
                   >
                     Resume
